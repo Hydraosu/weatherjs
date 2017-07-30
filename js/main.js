@@ -270,7 +270,7 @@ $(document).ready(function() {
             alert("Podaj prawidłową nazwę!");
         } else {
             $.ajax({
-                url: 'https://api.openweathermap.org/data/2.5/weather?appid=26a071ebec38c3071822a361d00380e7&units=metric&q=' + city,
+                url: 'http://api.openweathermap.org/data/2.5/weather?appid=26a071ebec38c3071822a361d00380e7&units=metric&q=' + city,
                 data: {
                     format: 'json'
                 },
