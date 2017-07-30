@@ -1,0 +1,33 @@
+
+body {
+	
+background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=4ea6caff&noise=626262&density=15&opacity=15');
+
+}
+#top {
+    position: absolute;
+left: 50%;
+width: 800px;
+margin-left: -400px;
+}
+
+#mid {
+     position: absolute;
+left: 50%;
+width: 800px;
+margin-left: -400px;
+}
+#country{
+	font-size:20px;
+	
+}
+
+#cityy{
+	font-size:20px;
+	
+}
+
+#temperature{
+	font-size:20px;
+	
+}
